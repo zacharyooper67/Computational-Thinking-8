@@ -40,8 +40,9 @@ print(f"vanilla points = {vanilla_points}")
 print(f"chocolate points = {chocolate_points}")
 if chocolate_points> vanilla_points:
     print("you are a chocolate person.")
-elif vanilla_points> chocolate_points:
-    print("you are a movie person")
+elif vanilla_points> chocolate_points and vanilla_points >=2:
+    print("you are a vanilla person")
+    
 
 
 
