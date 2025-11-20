@@ -23,3 +23,5 @@ for i in range(0,5):
             print("GOAL!!")
 score += 1
 print("your score:" + str (score))
+
+
